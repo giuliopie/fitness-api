@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1638376643">
-  <project timestamp="1638376643">
+<coverage generated="1638378064">
+  <project timestamp="1638378064">
     <file name="/srv/http/sideagroup/laravel/fitness-api/app/Console/Commands/CreateAdmin.php">
       <class name="App\Console\Commands\CreateAdmin" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="2" elements="10" coveredelements="3"/>

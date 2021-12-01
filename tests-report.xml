@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="3" errors="0" warnings="2" failures="0" skipped="0" time="0.213089">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001570">
+      <testsuite name="Tests\Unit\ExampleTest" file="/github/workspace/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001570">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/github/workspace/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.001570"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="3" assertions="2" errors="0" warnings="2" failures="0" skipped="0" time="0.211519">
+      <testsuite name="Tests\Feature\AdminTest" file="/github/workspace/tests/Feature/AdminTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.211090">
+        <testcase name="it_can_create_an_admin" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/github/workspace/tests/Feature/AdminTest.php" line="18" assertions="2" time="0.211090"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\AttendeeTest" file="/github/workspace/tests/Feature/AttendeeTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000362">
+        <testcase name="Warning" assertions="0" time="0.000362">
+          <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Feature\AttendeeTest".</warning>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\TrainerTest" file="/github/workspace/tests/Feature/TrainerTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000067">
+        <testcase name="Warning" assertions="0" time="0.000067">
+          <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Feature\TrainerTest".</warning>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
