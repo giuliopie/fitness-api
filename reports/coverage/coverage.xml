@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1638380216">
   <project timestamp="1638380216">
-    <file name="app/Console/Commands/CreateAdmin.php">
+    <file name="./app/Console/Commands/CreateAdmin.php">
       <class name="App\Console\Commands\CreateAdmin" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="2" elements="10" coveredelements="3"/>
       </class>
@@ -17,7 +17,7 @@
       <line num="49" type="stmt" count="0"/>
       <metrics loc="51" ncloc="31" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="2" elements="10" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/CreateAttendee.php">
+    <file name="./app/Console/Commands/CreateAttendee.php">
       <class name="App\Console\Commands\CreateAttendee" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="2" elements="12" coveredelements="3"/>
       </class>
@@ -35,7 +35,7 @@
       <line num="54" type="stmt" count="0"/>
       <metrics loc="56" ncloc="36" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="2" elements="12" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/CreateCourse.php">
+    <file name="./app/Console/Commands/CreateCourse.php">
       <class name="App\Console\Commands\CreateCourse" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="2" elements="13" coveredelements="3"/>
       </class>
@@ -54,7 +54,7 @@
       <line num="55" type="stmt" count="0"/>
       <metrics loc="57" ncloc="37" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="2" elements="13" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/CreateTrainer.php">
+    <file name="./app/Console/Commands/CreateTrainer.php">
       <class name="App\Console\Commands\CreateTrainer" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="2" elements="17" coveredelements="3"/>
       </class>
@@ -77,7 +77,7 @@
       <line num="59" type="stmt" count="0"/>
       <metrics loc="61" ncloc="41" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="2" elements="17" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/GetCoursesOfTrainer.php">
+    <file name="./app/Console/Commands/GetCoursesOfTrainer.php">
       <class name="App\Console\Commands\GetCoursesOfTrainer" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="2" elements="17" coveredelements="3"/>
       </class>
@@ -100,7 +100,7 @@
       <line num="61" type="stmt" count="0"/>
       <metrics loc="62" ncloc="42" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="2" elements="17" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/LinkAttendeeCourse.php">
+    <file name="./app/Console/Commands/LinkAttendeeCourse.php">
       <class name="App\Console\Commands\LinkAttendeeCourse" namespace="global">
         <metrics complexity="7" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="2" elements="37" coveredelements="3"/>
       </class>
@@ -143,7 +143,7 @@
       <line num="101" type="stmt" count="0"/>
       <metrics loc="102" ncloc="82" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="2" elements="37" coveredelements="3"/>
     </file>
-    <file name="app/Console/Commands/LinkCourseTrainer.php">
+    <file name="./app/Console/Commands/LinkCourseTrainer.php">
       <class name="App\Console\Commands\LinkCourseTrainer" namespace="global">
         <metrics complexity="5" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="2" elements="34" coveredelements="3"/>
       </class>
@@ -183,7 +183,7 @@
       <line num="97" type="stmt" count="0"/>
       <metrics loc="98" ncloc="78" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="32" coveredstatements="2" elements="34" coveredelements="3"/>
     </file>
-    <file name="app/Console/Kernel.php">
+    <file name="./app/Console/Kernel.php">
       <class name="App\Console\Kernel" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
       </class>
@@ -195,7 +195,7 @@
       <line num="31" type="stmt" count="1"/>
       <metrics loc="32" ncloc="21" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
     </file>
-    <file name="app/Exceptions/Handler.php">
+    <file name="./app/Exceptions/Handler.php">
       <class name="App\Exceptions\Handler" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </class>
@@ -205,7 +205,7 @@
       <line num="40" type="stmt" count="1"/>
       <metrics loc="41" ncloc="26" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
     </file>
-    <file name="app/Http/Controllers/AdminController.php">
+    <file name="./app/Http/Controllers/AdminController.php">
       <class name="App\Http\Controllers\AdminController" namespace="global">
         <metrics complexity="7" methods="7" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="5" elements="18" coveredelements="6"/>
       </class>
@@ -229,7 +229,7 @@
       <line num="90" type="stmt" count="0"/>
       <metrics loc="92" ncloc="51" classes="1" methods="7" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="5" elements="18" coveredelements="6"/>
     </file>
-    <file name="app/Http/Controllers/AttendanceController.php">
+    <file name="./app/Http/Controllers/AttendanceController.php">
       <class name="App\Http\Controllers\AttendanceController" namespace="global">
         <metrics complexity="11" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="0" elements="25" coveredelements="0"/>
       </class>
@@ -260,7 +260,7 @@
       <line num="111" type="stmt" count="0"/>
       <metrics loc="113" ncloc="65" classes="1" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="0" elements="25" coveredelements="0"/>
     </file>
-    <file name="app/Http/Controllers/AttendeeController.php">
+    <file name="./app/Http/Controllers/AttendeeController.php">
       <class name="App\Http\Controllers\AttendeeController" namespace="global">
         <metrics complexity="7" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="20" coveredelements="0"/>
       </class>
@@ -286,13 +286,13 @@
       <line num="94" type="stmt" count="0"/>
       <metrics loc="96" ncloc="55" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="20" coveredelements="0"/>
     </file>
-    <file name="app/Http/Controllers/Controller.php">
+    <file name="./app/Http/Controllers/Controller.php">
       <class name="App\Http\Controllers\Controller" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Controllers/CourseController.php">
+    <file name="./app/Http/Controllers/CourseController.php">
       <class name="App\Http\Controllers\CourseController" namespace="global">
         <metrics complexity="9" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="28" coveredelements="0"/>
       </class>
@@ -326,7 +326,7 @@
       <line num="123" type="stmt" count="0"/>
       <metrics loc="124" ncloc="70" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="28" coveredelements="0"/>
     </file>
-    <file name="app/Http/Controllers/TrainerController.php">
+    <file name="./app/Http/Controllers/TrainerController.php">
       <class name="App\Http\Controllers\TrainerController" namespace="global">
         <metrics complexity="7" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="23" coveredelements="0"/>
       </class>
@@ -355,13 +355,13 @@
       <line num="97" type="stmt" count="0"/>
       <metrics loc="98" ncloc="57" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="0" elements="23" coveredelements="0"/>
     </file>
-    <file name="app/Http/Kernel.php">
+    <file name="./app/Http/Kernel.php">
       <class name="App\Http\Kernel" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="67" ncloc="45" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/Authenticate.php">
+    <file name="./app/Http/Middleware/Authenticate.php">
       <class name="App\Http\Middleware\Authenticate" namespace="global">
         <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
@@ -371,19 +371,19 @@
       <line num="20" type="stmt" count="0"/>
       <metrics loc="21" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/EncryptCookies.php">
+    <file name="./app/Http/Middleware/EncryptCookies.php">
       <class name="App\Http\Middleware\EncryptCookies" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/PreventRequestsDuringMaintenance.php">
+    <file name="./app/Http/Middleware/PreventRequestsDuringMaintenance.php">
       <class name="App\Http\Middleware\PreventRequestsDuringMaintenance" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/RedirectIfAuthenticated.php">
+    <file name="./app/Http/Middleware/RedirectIfAuthenticated.php">
       <class name="App\Http\Middleware\RedirectIfAuthenticated" namespace="global">
         <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
       </class>
@@ -395,13 +395,13 @@
       <line num="30" type="stmt" count="0"/>
       <metrics loc="32" ncloc="24" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/TrimStrings.php">
+    <file name="./app/Http/Middleware/TrimStrings.php">
       <class name="App\Http\Middleware\TrimStrings" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="19" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/TrustHosts.php">
+    <file name="./app/Http/Middleware/TrustHosts.php">
       <class name="App\Http\Middleware\TrustHosts" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </class>
@@ -409,55 +409,55 @@
       <line num="17" type="stmt" count="0"/>
       <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/TrustProxies.php">
+    <file name="./app/Http/Middleware/TrustProxies.php">
       <class name="App\Http\Middleware\TrustProxies" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="28" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Http/Middleware/VerifyCsrfToken.php">
+    <file name="./app/Http/Middleware/VerifyCsrfToken.php">
       <class name="App\Http\Middleware\VerifyCsrfToken" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/Admin.php">
+    <file name="./app/Models/Admin.php">
       <class name="App\Models\Admin" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/Attendance.php">
+    <file name="./app/Models/Attendance.php">
       <class name="App\Models\Attendance" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="18" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/Attendee.php">
+    <file name="./app/Models/Attendee.php">
       <class name="App\Models\Attendee" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="17" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/Course.php">
+    <file name="./app/Models/Course.php">
       <class name="App\Models\Course" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="16" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/Trainer.php">
+    <file name="./app/Models/Trainer.php">
       <class name="App\Models\Trainer" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="18" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Models/User.php">
+    <file name="./app/Models/User.php">
       <class name="App\Models\User" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </class>
       <metrics loc="44" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="app/Providers/AppServiceProvider.php">
+    <file name="./app/Providers/AppServiceProvider.php">
       <class name="App\Providers\AppServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
@@ -467,7 +467,7 @@
       <line num="27" type="stmt" count="1"/>
       <metrics loc="28" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
-    <file name="app/Providers/AuthServiceProvider.php">
+    <file name="./app/Providers/AuthServiceProvider.php">
       <class name="App\Providers\AuthServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </class>
@@ -476,7 +476,7 @@
       <line num="29" type="stmt" count="1"/>
       <metrics loc="30" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
-    <file name="app/Providers/BroadcastServiceProvider.php">
+    <file name="./app/Providers/BroadcastServiceProvider.php">
       <class name="App\Providers\BroadcastServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
@@ -486,7 +486,7 @@
       <line num="20" type="stmt" count="0"/>
       <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
-    <file name="app/Providers/EventServiceProvider.php">
+    <file name="./app/Providers/EventServiceProvider.php">
       <class name="App\Providers\EventServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
@@ -494,7 +494,7 @@
       <line num="31" type="stmt" count="1"/>
       <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
-    <file name="app/Providers/RouteServiceProvider.php">
+    <file name="./app/Providers/RouteServiceProvider.php">
       <class name="App\Providers\RouteServiceProvider" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="17" coveredelements="17"/>
       </class>
