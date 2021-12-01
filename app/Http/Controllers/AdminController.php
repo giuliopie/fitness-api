@@ -30,7 +30,7 @@ class AdminController extends Controller
 
         $admin->save();
 
-        return true;
+        return ["data" => $admin];
     }
 
     /**
