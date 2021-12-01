@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1638378064">
-  <project timestamp="1638378064">
+<coverage generated="1638380216">
+  <project timestamp="1638380216">
     <file name="/github/workspace/app/Console/Commands/CreateAdmin.php">
       <class name="App\Console\Commands\CreateAdmin" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="2" elements="10" coveredelements="3"/>
@@ -496,18 +496,18 @@
     </file>
     <file name="/github/workspace/app/Providers/RouteServiceProvider.php">
       <class name="App\Providers\RouteServiceProvider" namespace="global">
-        <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="8" elements="17" coveredelements="9"/>
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="17" coveredelements="17"/>
       </class>
-      <line num="36" type="method" name="boot" visibility="public" complexity="1" crap="1.26" count="1"/>
+      <line num="36" type="method" name="boot" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="38" type="stmt" count="1"/>
       <line num="40" type="stmt" count="1"/>
-      <line num="41" type="stmt" count="0"/>
-      <line num="42" type="stmt" count="0"/>
-      <line num="43" type="stmt" count="0"/>
-      <line num="44" type="stmt" count="0"/>
-      <line num="46" type="stmt" count="0"/>
-      <line num="47" type="stmt" count="0"/>
-      <line num="48" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="46" type="stmt" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
       <line num="49" type="stmt" count="1"/>
       <line num="50" type="stmt" count="1"/>
       <line num="57" type="method" name="configureRateLimiting" visibility="protected" complexity="2" crap="2" count="1"/>
@@ -515,8 +515,8 @@
       <line num="60" type="stmt" count="1"/>
       <line num="61" type="stmt" count="1"/>
       <line num="62" type="stmt" count="1"/>
-      <metrics loc="63" ncloc="38" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="8" elements="17" coveredelements="9"/>
+      <metrics loc="63" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="17" coveredelements="17"/>
     </file>
-    <metrics files="35" loc="1638" ncloc="1096" classes="22" methods="65" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="241" coveredstatements="38" elements="306" coveredelements="53"/>
+    <metrics files="35" loc="1638" ncloc="1096" classes="22" methods="65" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="241" coveredstatements="45" elements="306" coveredelements="61"/>
   </project>
 </coverage>

@@ -22,8 +22,7 @@
         </report>
     </coverage>
     <logging>
-        <log type="coverage-clover" target="coverage-report.xml"/>
-        <log type="junit" target="tests-report.xml"/>
+        <junit outputFile="reports/junit/junit.xml" />
     </logging>
     <php>
         <server name="APP_ENV" value="testing"/>
