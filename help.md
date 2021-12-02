@@ -4,6 +4,12 @@ Se va in errore per transaction, prova :
 - php artisan cache:clear
 - php artisan config:clear
 
+Check coverage:
+- php vendor/bin/phpunit
+- php artisan test
+- http-server reports/coverage/html 
+
+
 - TESTS
 [x] Come amministratore voglio creare un corso.
 [x] Come amministratore voglio ricevere un errore se creo un corso con un nome già presente.

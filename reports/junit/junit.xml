@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="4" assertions="3" errors="0" warnings="2" failures="0" skipped="0" time="0.410956">
-    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.007553">
-      <testsuite name="Tests\Unit\ExampleTest" file="./tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.007553">
-        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="./tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.007553"/>
+  <testsuite name="" tests="14" assertions="21" errors="0" warnings="0" failures="0" skipped="0" time="0.955887">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001168">
+      <testsuite name="Tests\Unit\ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001168">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.001168"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Feature" tests="3" assertions="2" errors="0" warnings="2" failures="0" skipped="0" time="0.403403">
-      <testsuite name="Tests\Feature\AdminTest" file="./tests/Feature/AdminTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.401766">
-        <testcase name="it_can_create_an_admin" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="./tests/Feature/AdminTest.php" line="18" assertions="2" time="0.401766"/>
+    <testsuite name="Feature" tests="13" assertions="20" errors="0" warnings="0" failures="0" skipped="0" time="0.954719">
+      <testsuite name="Tests\Feature\AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" tests="10" assertions="15" errors="0" warnings="0" failures="0" skipped="0" time="0.749613">
+        <testcase name="it_can_create_an_admin" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="14" assertions="2" time="0.161251"/>
+        <testcase name="it_can_create_a_course" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="27" assertions="2" time="0.066929"/>
+        <testcase name="it_can_create_more_courses_with_same_name" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="41" assertions="1" time="0.070088"/>
+        <testcase name="it_can_create_a_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="55" assertions="2" time="0.066464"/>
+        <testcase name="it_cannot_create_a_trainer_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="71" assertions="1" time="0.062702"/>
+        <testcase name="it_cannot_create_more_trainers_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="86" assertions="1" time="0.065050"/>
+        <testcase name="it_can_link_course_and_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="101" assertions="2" time="0.068982"/>
+        <testcase name="it_can_create_an_attendee" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="123" assertions="2" time="0.062247"/>
+        <testcase name="it_cannot_create_an_attendee_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="137" assertions="1" time="0.061116"/>
+        <testcase name="it_cannot_create_more_attendees_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="150" assertions="1" time="0.064784"/>
       </testsuite>
-      <testsuite name="Tests\Feature\AttendeeTest" file="./tests/Feature/AttendeeTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.001465">
-        <testcase name="Warning" assertions="0" time="0.001465">
-          <warning type="PHPUnit\Framework\Warning">Warning
-No tests found in class "Tests\Feature\AttendeeTest".</warning>
-        </testcase>
+      <testsuite name="Tests\Feature\AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.127561">
+        <testcase name="it_can_link_attendee_and_course" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="12" assertions="2" time="0.068740"/>
+        <testcase name="it_cannot_link_attendee_and_course_if_course_is_full" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="39" assertions="1" time="0.058821"/>
       </testsuite>
-      <testsuite name="Tests\Feature\TrainerTest" file="./tests/Feature/TrainerTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.000172">
-        <testcase name="Warning" assertions="0" time="0.000172">
-          <warning type="PHPUnit\Framework\Warning">Warning
-No tests found in class "Tests\Feature\TrainerTest".</warning>
-        </testcase>
+      <testsuite name="Tests\Feature\TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.077545">
+        <testcase name="it_can_get_its_courses" class="Tests\Feature\TrainerTest" classname="Tests.Feature.TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" line="14" assertions="2" time="0.077545"/>
       </testsuite>
     </testsuite>
   </testsuite>
