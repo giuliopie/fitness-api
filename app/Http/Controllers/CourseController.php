@@ -35,7 +35,7 @@ class CourseController extends Controller
 
         $course->save();
 
-        return true;
+        return ['data' => $course];
     }
 
     /**
@@ -85,7 +85,7 @@ class CourseController extends Controller
         
         $record->save();
 
-        return true;
+        return ['data' => $record];
     }
 
     /**
@@ -96,7 +96,10 @@ class CourseController extends Controller
      */
     public function getCoursesOfTrainer(Request $request)
     {
-        return Course::where('trainer_id', $request->trainer_id)->get();
+        $courses = Course::where('trainer_id', $request->trainer_id)->get();
+        $data = $courses->count() > 0 ? $courses : json_encode(['empty']);
+
+        return ['data' => $data];
     }
 
     /**

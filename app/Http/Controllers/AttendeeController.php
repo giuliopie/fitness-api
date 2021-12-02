@@ -34,7 +34,7 @@ class AttendeeController extends Controller
 
         $admin->save();
 
-        return true;
+        return ['data' => $admin];
     }
 
     /**

@@ -25,7 +25,7 @@ class TrainerController extends Controller
     public function create(Request $request)
     {
         $validatedData = $request->validate([
-            'email' => 'required|email|unique:attendees|max:255'
+            'email' => 'required|email|unique:trainers'
         ]);
 
         $trainer = new Trainer();
@@ -37,7 +37,7 @@ class TrainerController extends Controller
 
         $trainer->save();
 
-        return true;
+        return ['data' => $trainer];
     }
 
     /**
