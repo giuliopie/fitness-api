@@ -11,6 +11,7 @@ class TrainerTest extends TestCase
     use RefreshDatabase;
     
     /** @test */
+    // CourseController@getCoursesOfTrainer
     public function it_can_get_its_courses()
     {
         $data = [

@@ -24,18 +24,18 @@ class CourseController extends Controller
      */
     public function create(Request $request)
     {
-        $validatedData = $request->validate([
-            'name' => 'required|unique:courses|max:255'
-        ]);
+        // $validatedData = $request->validate([
+        //     'name' => 'required|unique:courses|max:255'
+        // ]);
 
-        $course = new Course();
-        $course->name = $request->name;
-        $course->limit_partecipant = $request->limitPartecipant;
-        $course->active = $request->active;
+        // $course = new Course();
+        // $course->name = $request->name;
+        // $course->limit_partecipant = $request->limitPartecipant;
+        // $course->active = $request->active;
 
-        $course->save();
+        // $course->save();
 
-        return ['data' => $course];
+        // return ['data' => $course];
     }
 
     /**
@@ -80,12 +80,12 @@ class CourseController extends Controller
      */
     public function linkCourseToTrainer(Request $request)
     {
-        $record = Course::find($request->course_id);
-        $record->trainer_id = $request->trainer_id;
+        // $record = Course::find($request->course_id);
+        // $record->trainer_id = $request->trainer_id;
         
-        $record->save();
+        // $record->save();
 
-        return ['data' => $record];
+        // return ['data' => $record];
     }
 
     /**
@@ -96,10 +96,10 @@ class CourseController extends Controller
      */
     public function getCoursesOfTrainer(Request $request)
     {
-        $courses = Course::where('trainer_id', $request->trainer_id)->get();
-        $data = $courses->count() > 0 ? $courses : json_encode(['empty']);
+        // $courses = Course::where('trainer_id', $request->trainer_id)->get();
+        // $data = $courses->count() > 0 ? $courses : json_encode(['empty']);
 
-        return ['data' => $data];
+        // return ['data' => $data];
     }
 
     /**

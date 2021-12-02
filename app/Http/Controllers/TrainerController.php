@@ -24,20 +24,20 @@ class TrainerController extends Controller
      */
     public function create(Request $request)
     {
-        $validatedData = $request->validate([
-            'email' => 'required|email|unique:trainers'
-        ]);
+        // $validatedData = $request->validate([
+        //     'email' => 'required|email|unique:trainers'
+        // ]);
 
-        $trainer = new Trainer();
-        $trainer->email = $request->email;
-        $trainer->username = $request->username;
-        $trainer->name = $request->name;
-        $trainer->surname = $request->surname;
-        $trainer->active = $request->active;
+        // $trainer = new Trainer();
+        // $trainer->email = $request->email;
+        // $trainer->username = $request->username;
+        // $trainer->name = $request->name;
+        // $trainer->surname = $request->surname;
+        // $trainer->active = $request->active;
 
-        $trainer->save();
+        // $trainer->save();
 
-        return ['data' => $trainer];
+        // return ['data' => $trainer];
     }
 
     /**

@@ -1,30 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="14" assertions="21" errors="0" warnings="0" failures="0" skipped="0" time="0.955887">
-    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001168">
-      <testsuite name="Tests\Unit\ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001168">
-        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.001168"/>
+  <testsuite name="" tests="14" assertions="21" errors="0" warnings="0" failures="13" skipped="0" time="0.892444">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001141">
+      <testsuite name="Tests\Unit\ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001141">
+        <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Unit/ExampleTest.php" line="14" assertions="1" time="0.001141"/>
       </testsuite>
     </testsuite>
-    <testsuite name="Feature" tests="13" assertions="20" errors="0" warnings="0" failures="0" skipped="0" time="0.954719">
-      <testsuite name="Tests\Feature\AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" tests="10" assertions="15" errors="0" warnings="0" failures="0" skipped="0" time="0.749613">
-        <testcase name="it_can_create_an_admin" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="14" assertions="2" time="0.161251"/>
-        <testcase name="it_can_create_a_course" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="27" assertions="2" time="0.066929"/>
-        <testcase name="it_can_create_more_courses_with_same_name" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="41" assertions="1" time="0.070088"/>
-        <testcase name="it_can_create_a_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="55" assertions="2" time="0.066464"/>
-        <testcase name="it_cannot_create_a_trainer_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="71" assertions="1" time="0.062702"/>
-        <testcase name="it_cannot_create_more_trainers_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="86" assertions="1" time="0.065050"/>
-        <testcase name="it_can_link_course_and_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="101" assertions="2" time="0.068982"/>
-        <testcase name="it_can_create_an_attendee" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="123" assertions="2" time="0.062247"/>
-        <testcase name="it_cannot_create_an_attendee_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="137" assertions="1" time="0.061116"/>
-        <testcase name="it_cannot_create_more_attendees_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="150" assertions="1" time="0.064784"/>
+    <testsuite name="Feature" tests="13" assertions="20" errors="0" warnings="0" failures="13" skipped="0" time="0.891303">
+      <testsuite name="Tests\Feature\AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" tests="10" assertions="15" errors="0" warnings="0" failures="10" skipped="0" time="0.702093">
+        <testcase name="it_can_create_an_admin" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="15" assertions="2" time="0.147965">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AdminTest::it_can_create_an_admin
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:24</failure>
+        </testcase>
+        <testcase name="it_can_create_a_course" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="29" assertions="2" time="0.060082">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AdminTest::it_can_create_a_course
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:39</failure>
+        </testcase>
+        <testcase name="it_can_create_more_courses_with_same_name" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="44" assertions="1" time="0.061947">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AdminTest::it_can_create_more_courses_with_same_name
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:54</failure>
+        </testcase>
+        <testcase name="it_can_create_a_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="59" assertions="2" time="0.060459">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AdminTest::it_can_create_a_trainer
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:71</failure>
+        </testcase>
+        <testcase name="it_cannot_create_a_trainer_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="76" assertions="1" time="0.060231">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AdminTest::it_cannot_create_a_trainer_with_wrong_email
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:87</failure>
+        </testcase>
+        <testcase name="it_cannot_create_more_trainers_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="92" assertions="1" time="0.062077">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AdminTest::it_cannot_create_more_trainers_with_same_email
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:103</failure>
+        </testcase>
+        <testcase name="it_can_link_course_and_trainer" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="108" assertions="2" time="0.062348">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AdminTest::it_can_link_course_and_trainer
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:126</failure>
+        </testcase>
+        <testcase name="it_can_create_an_attendee" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="131" assertions="2" time="0.063495">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AdminTest::it_can_create_an_attendee
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:141</failure>
+        </testcase>
+        <testcase name="it_cannot_create_an_attendee_with_wrong_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="146" assertions="1" time="0.060818">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AdminTest::it_cannot_create_an_attendee_with_wrong_email
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:155</failure>
+        </testcase>
+        <testcase name="it_cannot_create_more_attendees_with_same_email" class="Tests\Feature\AdminTest" classname="Tests.Feature.AdminTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php" line="160" assertions="1" time="0.062671">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AdminTest::it_cannot_create_more_attendees_with_same_email
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AdminTest.php:170</failure>
+        </testcase>
       </testsuite>
-      <testsuite name="Tests\Feature\AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.127561">
-        <testcase name="it_can_link_attendee_and_course" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="12" assertions="2" time="0.068740"/>
-        <testcase name="it_cannot_link_attendee_and_course_if_course_is_full" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="39" assertions="1" time="0.058821"/>
+      <testsuite name="Tests\Feature\AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" tests="2" assertions="3" errors="0" warnings="0" failures="2" skipped="0" time="0.118190">
+        <testcase name="it_can_link_attendee_and_course" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="13" assertions="2" time="0.064554">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\AttendeeTest::it_can_link_attendee_and_course
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php:36</failure>
+        </testcase>
+        <testcase name="it_cannot_link_attendee_and_course_if_course_is_full" class="Tests\Feature\AttendeeTest" classname="Tests.Feature.AttendeeTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php" line="41" assertions="1" time="0.053636">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\AttendeeTest::it_cannot_link_attendee_and_course_if_course_is_full
+Expected response status code [302] but received 200.
+  Failed asserting that 302 is identical to 200.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/AttendeeTest.php:67</failure>
+        </testcase>
       </testsuite>
-      <testsuite name="Tests\Feature\TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.077545">
-        <testcase name="it_can_get_its_courses" class="Tests\Feature\TrainerTest" classname="Tests.Feature.TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" line="14" assertions="2" time="0.077545"/>
+      <testsuite name="Tests\Feature\TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="1" skipped="0" time="0.071019">
+        <testcase name="it_can_get_its_courses" class="Tests\Feature\TrainerTest" classname="Tests.Feature.TrainerTest" file="/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php" line="15" assertions="2" time="0.071019">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\TrainerTest::it_can_get_its_courses
+Invalid JSON was returned from the route.
+
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:949
+/srv/http/sideagroup/laravel/fitness-api/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/srv/http/sideagroup/laravel/fitness-api/tests/Feature/TrainerTest.php:23</failure>
+        </testcase>
       </testsuite>
     </testsuite>
   </testsuite>

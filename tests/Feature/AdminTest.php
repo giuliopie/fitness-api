@@ -11,6 +11,7 @@ class AdminTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
+    // AdminController@create
     public function it_can_create_an_admin()
     {
         $data = [
@@ -24,6 +25,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // CourseController@create
     public function it_can_create_a_course()
     {
         $data = [
@@ -38,6 +40,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // CourseController@create
     public function it_can_create_more_courses_with_same_name()
     {
         $data = [
@@ -52,6 +55,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // TrainerController@create
     public function it_can_create_a_trainer()
     {
         $data = [
@@ -68,6 +72,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // TrainerController@create
     public function it_cannot_create_a_trainer_with_wrong_email()
     {
         $data = [
@@ -82,7 +87,8 @@ class AdminTest extends TestCase
             ->assertStatus(302);
     }
 
-     /** @test */
+    /** @test */
+    // TrainerController@create
     public function it_cannot_create_more_trainers_with_same_email()
     {
         $data = [
@@ -98,6 +104,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // CourseController@linkCourseToTrainer
     public function it_can_link_course_and_trainer()
     {
 
@@ -120,6 +127,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // AttendeeController@create
     public function it_can_create_an_attendee()
     {
         $data = [
@@ -134,6 +142,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // AttendeeController@create
     public function it_cannot_create_an_attendee_with_wrong_email()
     {
         $data = [
@@ -147,6 +156,7 @@ class AdminTest extends TestCase
     }
 
     /** @test */
+    // AttendeeController@create
     public function it_cannot_create_more_attendees_with_same_email()
     {
         $data = [

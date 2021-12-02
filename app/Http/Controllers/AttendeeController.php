@@ -24,17 +24,17 @@ class AttendeeController extends Controller
      */
     public function create(Request $request)
     {
-        $validatedData = $request->validate([
-            'email' => 'required|email|unique:attendees|max:255'
-        ]);
+        // $validatedData = $request->validate([
+        //     'email' => 'required|email|unique:attendees|max:255'
+        // ]);
 
-        $admin = new Attendee();
-        $admin->email = $request->email;
-        $admin->username = $request->username;
+        // $admin = new Attendee();
+        // $admin->email = $request->email;
+        // $admin->username = $request->username;
 
-        $admin->save();
+        // $admin->save();
 
-        return ['data' => $admin];
+        // return ['data' => $admin];
     }
 
     /**

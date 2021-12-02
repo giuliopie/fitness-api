@@ -9,6 +9,7 @@ use Tests\TestCase;
 class AttendeeTest extends TestCase
 {
     /** @test */
+    // AttendanceController@linkAttendeeToCourse
     public function it_can_link_attendee_and_course()
     {
         $data = [
@@ -36,6 +37,7 @@ class AttendeeTest extends TestCase
     }
 
     /** @test */
+    // AttendanceController@linkAttendeeToCourse
     public function it_cannot_link_attendee_and_course_if_course_is_full()
     {
         $data = [

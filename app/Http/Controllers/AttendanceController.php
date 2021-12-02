@@ -37,23 +37,21 @@ class AttendanceController extends Controller
      */
     public function linkAttendeeToCourse(Request $request)
     {
-        if(!$request->attendee_id || !$request->course_id) return 0;
+        // if(!$request->attendee_id || !$request->course_id) return 0;
         
-        $records = Attendance::where('course_id', $request->course_id)->get();
-        $courseLimit = Course::find($request->course_id)->pluck('limit_partecipant');
+        // $records = Attendance::where('course_id', $request->course_id)->get();
+        // $courseLimit = Course::find($request->course_id)->pluck('limit_partecipant');
         
-        // dump($records->count());
-        // dump($courseLimit);
-        if($courseLimit[0] <= $records->count()) return back()->with('error', 'The error message here!');
+        // if($courseLimit[0] <= $records->count()) return back()->with('error', 'The error message here!');
         
-        $attendance = new Attendance();
-        $attendance->attendee_id = $request->attendee_id;
-        $attendance->course_id = $request->course_id;
-        $attendance->active = $request->active;
+        // $attendance = new Attendance();
+        // $attendance->attendee_id = $request->attendee_id;
+        // $attendance->course_id = $request->course_id;
+        // $attendance->active = $request->active;
         
-        $attendance->save();
+        // $attendance->save();
 
-        return ['data' => $attendance];
+        // return ['data' => $attendance];
     }
 
     /**
