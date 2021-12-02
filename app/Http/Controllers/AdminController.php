@@ -24,13 +24,13 @@ class AdminController extends Controller
      */
     public function create(Request $request)
     {
-        // $admin = new Admin();
-        // $admin->email = $request->email;
-        // $admin->username = $request->username;
+        $admin = new Admin();
+        $admin->email = $request->email;
+        $admin->username = $request->username;
 
-        // $admin->save();
+        $admin->save();
 
-        // return ["data" => $admin];
+        return ['data' => $admin];
     }
 
     /**
